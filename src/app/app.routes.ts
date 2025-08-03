@@ -8,5 +8,9 @@ export const routes: Routes = [
   {
     path: 'prompts',
     loadComponent: () => import('./pages/prompts-ia/prompts-ia.component').then(m => m.PromptsIAComponent)
+  },
+  {
+    path: 'prompts-asmr',
+    loadComponent: () => import('./pages/prompts-ia/asmr/prompts-amsr.component').then(m => m.PromptsASMRComponent)
   }
 ];

@@ -18,3 +18,24 @@ export const benefitsItems = [
     aria: 'Acceso a más de 7 guías exclusivas en PDF',
   },
 ];
+
+export const asmrItems = [
+  {
+    icon: '🎬',
+    title: '+100 videos ASMR',
+    desc: 'Cortes, texturas, sonido y estética visual para captar atención al instante.',
+    aria: 'Más de 100 videos ASMR ultra-realistas listos para usar',
+  },
+  {
+    icon: '🖼️',
+    title: '+200 imágenes IA',
+    desc: 'Visuales hipnóticos en alta definición, perfectos para reels, diseños o inspiración.',
+    aria: 'Más de 200 imágenes IA en alta calidad para contenido viral',
+  },
+  {
+    icon: '📦',
+    title: 'Guías paso a paso',
+    desc: 'Tutoriales completos sobre creación de videos ASMR.',
+    aria: 'Acceso a guías detalladas sobre creación de contenido ASMR con IA',
+  },
+];

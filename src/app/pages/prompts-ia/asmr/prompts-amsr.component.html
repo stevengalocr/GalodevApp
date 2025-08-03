@@ -1,14 +1,10 @@
 <app-header></app-header>
 <section class="hero-section">
-  <video autoplay muted muted="muted" loop playsinline class="hero-video">
-    <source src="assets/pages/home/bannerPrompts.mp4" type="video/mp4" />
-    Tu navegador no soporta el video.
-  </video>
+  <img src="assets/pages/home/banner-asmr.svg" alt="ASMR banner" class="hero-video" />
   <div class="hero-overlay">
-    <h1>Transformá ideas en contenido viral con IA</h1>
+    <h1>Creá contenido viral con videos ASMR generados por IA</h1>
     <p>
-      Aprendé a crear videos, imágenes y negocios digitales con inteligencia
-      artificial.
+      Aprendé a crear videos irresistibles para redes sociales con sonido envolvente, estética cinematográfica y estilo visual adictivo. 
     </p>
     <button class="btn-primary" (click)="scrollToPack()">
       Ver Infoproducto
@@ -43,15 +39,14 @@
   >
     <div class="pack-content">
       <h2 id="pack-title">
-        ¿Qué incluye <span class="highlight">GaloPrompterIA</span>?
+        ¿Qué vas a recibir con <span class="highlight">ASMR GaloDev</span>?
       </h2>
       <p class="pack-desc">
         <strong
           >El infoproducto
-          <span class="highlight">GaloPrompterIA</span>:</strong
+          <span class="highlight">ASMR GaloDev</span>:</strong
         >
-        Más de <b>200 videos IA</b> y <b>400 imágenes ultra-realistas</b> listas para usar. Guías paso a paso, ejemplos, prompts y recursos para crear contenido visual con inteligencia artificial.
-        Ideal para reels, imágenes virales, diseños únicos y proyectos creativos.
+        Más de <b>100 videos IA</b> y <b>200 imágenes</b> y las guías exactas para crear contenido que llama la atención, retiene audiencia y vende. Hecho para creadores que quieren destacar con estilo visual, ASMR y herramientas de inteligencia artificial.
       </p>
       <div
         class="pack-carousel-fullwidth"
@@ -65,7 +60,7 @@
             <li
               class="carousel-item"
               role="listitem"
-              *ngFor="let item of packItems"
+              *ngFor="let item of packASMR"
             >
               <figure class="carousel-img-wrapper">
                 <img [src]="item.img" [alt]="item.alt" loading="lazy" />
@@ -79,19 +74,19 @@
       </div>
       <div class="pack-sale-cta" role="region" aria-label="Oferta especial">
         <div class="price-info">
-          <span class="old-price" aria-label="Precio anterior">US$49.99</span>
-          <span class="discount" aria-label="60 por ciento de descuento"
-            >60% OFF</span
+          <span class="old-price" aria-label="Precio anterior">US$29.99</span>
+          <span class="discount" aria-label="77 por ciento de descuento"
+            >77% OFF</span
           >
         </div>
         <a
           class="btn-sale"
-          href="https://pay.hotmart.com/C100921721J?bid=1752977426282"
+          href="https://pay.hotmart.com/V101150821X"
           target="_blank"
           rel="noopener"
-          aria-label="Comprar GaloPrompterIA por 19.99 dólares en Hotmart (se abre en nueva pestaña)"
+          aria-label="Comprar ASMR GaloDev por 6.99 dólares en Hotmart (se abre en nueva pestaña)"
         >
-          <span class="price-now">COMPRA POR US$19.99</span>
+          <span class="price-now">COMPRA POR US$6.99</span>
         </a>
         <div class="cta-subtext">Precio especial por lanzamiento</div>
       </div>
@@ -133,56 +128,6 @@
     </div>
   </section>
 
-  <!-- Sección 4: Ejemplos visuales -->
-  <section
-    class="pack-section"
-    id="pack-section"
-    aria-labelledby="pack-title"
-    tabindex="-1"
-  >
-    <div class="pack-content">
-      <h2 id="pack-title">
-        <span class="highlight">Ejemplos visuales</span>
-      </h2>
-      <div
-        class="pack-carousel-fullwidth"
-        aria-label="Carrusel de ejemplos visuales"
-        role="region"
-      >
-        <div class="carousel-fade-left"></div>
-        <div class="carousel-fade-right"></div>
-        <!-- linea 1 -->
-        <ul #packCarousel1 class="pack-carousel" role="list">
-          <ng-container *ngFor="let repeat of [0, 1]">
-            <li
-              class="carousel-item"
-              role="listitem"
-              *ngFor="let item of packItemsList1"
-            >
-              <figure class="carousel-img-wrapper">
-                <img [src]="item.img" [alt]="item.alt" loading="lazy" />
-              </figure>
-            </li>
-          </ng-container>
-        </ul>
-        <!-- linea 2 -->
-        <ul #packCarousel2 class="pack-carousel" role="list">
-          <ng-container *ngFor="let repeat of [0, 1]">
-            <li
-              class="carousel-item"
-              role="listitem"
-              *ngFor="let item of packItemsList2.slice().reverse()"
-            >
-              <figure class="carousel-img-wrapper">
-                <img [src]="item.img" [alt]="item.alt" loading="lazy" />
-              </figure>
-            </li>
-          </ng-container>
-        </ul>
-      </div>
-    </div>
-  </section>
-
   <!-- Sección 5 + 6: ¿Para quién + Oferta especial -->
   <section class="pack-section duo-section" id="duo-section">
     <div class="duo-scroll">
@@ -192,15 +137,15 @@
             Este <span class="highlight">Infoproducto</span> es para vos si...
           </h2>
           <div class="para-quien-block">
-            <div class="para-quien-item">Querés empezar a crear contenido viral con IA pero no sabés por dónde comenzar</div>
-            <div class="para-quien-item">Sos diseñador, creador o vendés productos visuales</div>
-            <div class="para-quien-item">Querés imágenes y videos únicos, sin tener que generar cada uno</div>
-            <div class="para-quien-item">Querés posicionarte en redes con contenido diferente y potente</div>
+            <div class="para-quien-item">Querés crear videos e imágenes virales enfocadas en el nicho ASMR</div>
+            <div class="para-quien-item">Sos creador de contenido, diseñador o vendés productos visuales online</div>
+            <div class="para-quien-item">Buscás recursos listos para usar que se vean profesionales y vendan</div>
+            <div class="para-quien-item">Querés destacar en redes con contenido estético, original y 100% IA</div>
           </div>
         </div>
       </div>
       <div class="duo-item offer">
-        <app-special-offer></app-special-offer>
+        <app-asmr-offer></app-asmr-offer>
       </div>
     </div>
     <app-hotmart-trust-carousel></app-hotmart-trust-carousel>
